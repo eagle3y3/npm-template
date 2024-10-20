@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is built using TypeScript and Node.js. It provides various scripts for building, starting, and testing the functionality of the package. The core features are focused on managing dependencies using the `install` and `remove` commands.
+The core features are focused on managing dependencies using the `install` and `remove` commands. I initially was focused on doing the install but then I realized that the remove command was also needed after accidentally making a typo installing a dependency using `test:add` there's some strange caching that happens, and without `remove` you will always get installation errors. I then finished up the nested dependencies feature for installing.
 
 ## Installation
 
